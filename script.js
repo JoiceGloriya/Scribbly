@@ -30,7 +30,7 @@ const createBtn = document.querySelector(".btn");
         notes_container.appendChild(note);
         updateStorage();
         attachNoteEvents();
-    })
+    });
     
     notes_container.addEventListener('click', function(e)  {
         if(e.target.tagName === "IMG") {
